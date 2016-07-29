@@ -1,26 +1,71 @@
 Home{
-  .welcome-wrapper{
-    padding: 140px 0;
-    margin: 0;
-    background: url("http://www.riverdaleonline.org/wp-content/uploads/2013/04/YIP-2013-Last-Meeting.jpg") no-repeat fixed center;
-    background-size: cover;
+  .gradients {
+    background: #212121; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(-90deg, #212121, #880e4f, #212121); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(-90deg, #212121, #880e4f, #212121); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(-90deg, #212121, #880e4f, #212121); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(-180deg, #fff, #DCDCDC, #FFB6C1); /* Standard syntax */
   }
+  .gradients2 {
+      background: #212121; /* For browsers that do not support gradients */
+      background: -webkit-linear-gradient(-90deg, #212121, #880e4f, #212121); /* For Safari 5.1 to 6.0 */
+      background: -o-linear-gradient(-90deg, #212121, #880e4f, #212121); /* For Opera 11.1 to 12.0 */
+      background: -moz-linear-gradient(-90deg, #212121, #880e4f, #212121); /* For Firefox 3.6 to 15 */
+      background: linear-gradient(-190deg, #FFB6C1, #fff, #D3D3D3); /* Standard syntax */
+    }
+  .welcome-wrapper{
+    background: black url("http://www.riverdaleonline.org/wp-content/uploads/2013/04/YIP-2013-Last-Meeting.jpg") no-repeat fixed center;
+    background-size: cover;
+    margin-top: -50px;
+}
   .welcome{
-    background-color: black;
-    padding: 85px 0;
+    padding: 140px 0;
+    z-index: 10;
+    min-height: 100%;
+    background:rgba(0,0,0,0.6);
+  }
+  .welcome-content{
+    padding: 80px 0;
     color: #fff;
-    opacity: .8;
+    opacity: .7;
+    text-align: center;
+  }
+  .intro-title{
+    text-align: center;
+    font-size: 4.5em;
+    color: #fff;
+    font-weight:600;
+    text-shadow: 3px 3px 4px #880e4f;
 
   }
-  .welcome h1{
-    color: #880e4f;
+  .intro-description{
+    font-size: 1.5em;
+    font-weight: 500;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  #about-teenprogram{
+
   }
   section{
-    height: 400px;
+    .gradients;
+    padding: 140px 0;
+    z-index: 10;
+    min-height: 100%;
+  }
+  .section-title{
+    color: #880e4f;
+  }
+  .section-content{
+    padding: 85px 0;
+    font-size: 1.5em;
+    text-align: center;
+    padding: 3px;
   }
   .fa {
+    margin-top: 30px;
     font-size: 4em;
-    color: #880e4f;
+    color:#880e4f;
   }
   #welcome-carousel{
   }
