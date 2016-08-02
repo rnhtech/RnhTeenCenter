@@ -4,7 +4,7 @@ Home{
     background: -webkit-linear-gradient(-90deg, #212121, #880e4f, #212121); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(-90deg, #212121, #880e4f, #212121); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(-90deg, #212121, #880e4f, #212121); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(-180deg, #fff, #DCDCDC, #FFB6C1); /* Standard syntax */
+    background: linear-gradient(-180deg, #fff, #DCDCDC,  #A9A9A9); /* Standard syntax */
   }
   .gradients2 {
       background: #212121; /* For browsers that do not support gradients */
@@ -45,13 +45,18 @@ Home{
     margin: 0 auto;
   }
   #about-teenprogram{
-
+      .gradients;
+  }
+  #call-now{
+      background:
   }
   section{
-    .gradients;
+    // .gradients;
     padding: 140px 0;
     z-index: 10;
     min-height: 100%;
+    position: relative;
+    border-bottom: 2px solid #A9A9A9;
   }
   .section-title{
     color: #880e4f;
@@ -62,11 +67,23 @@ Home{
     text-align: center;
     padding: 3px;
   }
+  .section-next{
+      padding: 20px;
+  }
   .fa {
     margin-top: 30px;
     font-size: 4em;
     color:#880e4f;
+    margin: 0 auto;
+    text-align: center;
   }
-  #welcome-carousel{
+  .carousel{
+      background: #fff;
+    margin-top: 20px;
+  }
+  .carousel-item img{
+      max-height: 450px;
+      width: 100%;
+      margin: 0 auto;
   }
 }
